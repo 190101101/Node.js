@@ -1,0 +1,27 @@
+base\15 Sequelize ORM\112 What is ORM
+base\15 Sequelize ORM\113 Sequelize Db Connection
+base\15 Sequelize ORM\114 Creating Sequelize Table/Model
+base\15 Sequelize ORM\115 Sequelize Model Config
+base\15 Sequelize ORM\116 Add Sequelize Data
+base\15 Sequelize ORM\117 Sequelize Data Listing
+base\15 Sequelize ORM\118 Sequelize Data Query
+base\15 Sequelize ORM\119 Sequelize Data Erase
+base\15 Sequelize ORM\120 Sequelize Data Update
+base\15 Sequelize ORM\121 Sequelize Bulk Create
+base\15 Sequelize ORM\122 Sequelize FindorCreate and FindandCountAll
+base\15 Sequelize ORM\123 Sequelize Getter and Setter and Virtual
+base\15 Sequelize ORM\124 Sequelize Validation
+base\15 Sequelize ORM\125 Sequence Hooks
+base\15 Sequelize ORM\126 Sequelize Query
+base\15 Sequelize ORM\127 Sequence Transactions
+base\15 Sequelize ORM\128 Sequelize and Express
+base\15 Sequelize ORM\129 Sequelize 1 - Creating Multiple Models
+base\15 Sequelize ORM\130 Sequelize 1-Multi-Record Creation
+base\15 Sequelize ORM\131 Sequelize 1-Many Get and Count and Add and Create
+base\15 Sequelize ORM\132 Sequelize 1-Breaking Multiple Relationships
+base\15 Sequelize ORM\133 Sequelize 1-Listing and Querying Multi-Related Data
+base\15 Sequelize ORM\134 Sequelize Many-to-Many Model Creation
+base\15 Sequelize ORM\135 Sequelize Multi-to-Many Recording
+base\15 Sequelize ORM\136 Sequelize Many-to-Many Get and Count and Create
+base\15 Sequelize ORM\137 Sequelize Breaking the Many-to-Many Relationship
+base\15 Sequelize ORM\138 Sequelize Listing and Querying Many-to-Many Related Data

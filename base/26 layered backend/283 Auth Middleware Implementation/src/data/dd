@@ -1,0 +1,92 @@
+company:
+
+{
+	"name":"new data 1",
+	"year":"2023",
+	"description":"new description 1"
+}
+
+title:
+
+{
+	"name":"developer 1"
+}
+
+person:
+
+// 64f4a26cc8f11fd71701ce5a
+{
+	"name": "name update",
+	"surname": "surname update", 
+	"birthDate": 2016,
+	"gender": "gender",
+	"salary": 2000,
+	"tcNumber": "tcNumber",
+	"email": "email",
+	"password": "password",
+	"avatar": "avatar",
+	"cvFile": "cvFile",
+	"country": "country",
+	"city": "city",
+	"company": "64f526241c7f4cffa5328843",
+	"title": "64f526241c7f4cffa5328843"
+}
+
+
+company 64f21ca6f0f42dc8f842d531
+title 64f21e8c0049274e709e294c
+
+
+64f50196e67ec593e30a294c
+
+64f502a5dd8a1936887556c3
+
+{
+	"name": "apsi",
+	"surname": "apsikus", 
+	"birthDate": 2016,
+	"gender": "gender",
+	"salary": 2000,
+	"tcNumber": "tcNumber",
+	"email": "email",
+	"password": "password",
+	"avatar": "avatar",
+	"cvFile": "cvFile",
+	"country": "country",
+	"city": "city",
+	"company": "64f526241c7f4cffa5328843",
+	"title": "64f502a5dd8a1936887556c3"
+}
+
+{
+    "code": 201,
+    "error": false,
+    "timestamp": 1693834808155,
+    "success": true,
+    "data": {
+        "id": "64f5de37359332f27a9fd688",
+        "name": "apsi",
+        "surname": "apsikus",
+        "birthDate": "1970-01-01T00:00:02.016Z",
+        "gender": "gender",
+        "salary": 2000,
+        "tcNumber": "tcNumber",
+        "email": "email",
+        "password": "5f4dcc3b5aa765d61d8327deb882cf99",
+        "avatar": "avatar",
+        "cvFile": "cvFile",
+        "country": "country",
+        "city": "city",
+        "company": "64f526241c7f4cffa5328843",
+        "title": "64f502a5dd8a1936887556c3"
+    },
+    "message": "",
+    "validationErrors": null
+}
+
+
+signin
+{
+	"email": "email",
+	"password": "password"
+}

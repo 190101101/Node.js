@@ -1,0 +1,2 @@
+npm install @prisma/client --save
+npx prisma migrate dev --name init

@@ -1,0 +1,32 @@
+{
+    "code": 201,
+    "error": false,
+    "timestamp": 1693352550129,
+    "success": true,
+    "data": {
+        "name": "kuki",
+        "logo": "http://192.168.94.1:3000/uploads/1693352550001_0.5wbq57qa6sw_image_75db8d2d559663dc09b3e1d48f05525a.jpg",
+        "year": 2016,
+        "description": "kuki the cat",
+        "id": "64ee8266d15bf285a804485f",
+        "createdAt": "2023-08-29T23:42:30.027Z",
+        "updatedAt": "2023-08-29T23:42:30.027Z"
+    },
+    "message": "",
+    "validationErrors": null
+}
+
+http://192.168.94.1:3000/uploads/1693361198082_0.idv127bj0m_image_cc1ead650829ec61a785169e6805477f.jpg
+
+
+SyntaxError: Unexpected token - in JSON at position 0                                                                
+    at JSON.parse (<anonymous>)                                                                                      
+    at createStrictSyntaxError (C:\Users\190101101\Desktop\Node.js\node\node_modules\body-parser\lib\types\json.js:160:10)                                                                                                                
+    at parse (C:\Users\190101101\Desktop\Node.js\node\node_modules\body-parser\lib\types\json.js:83:15)              
+    at C:\Users\190101101\Desktop\Node.js\node\node_modules\body-parser\lib\read.js:128:18                           
+    at AsyncResource.runInAsyncScope (node:async_hooks:202:9)                                                        
+    at invokeCallback (C:\Users\190101101\Desktop\Node.js\node\node_modules\raw-body\index.js:231:16)                
+    at done (C:\Users\190101101\Desktop\Node.js\node\node_modules\raw-body\index.js:220:7)                           
+    at IncomingMessage.onEnd (C:\Users\190101101\Desktop\Node.js\node\node_modules\raw-body\index.js:280:7)          
+    at IncomingMessage.emit (node:events:539:35)                                                                     
+    at endReadableNT (node:internal/streams/readable:1345:12)       

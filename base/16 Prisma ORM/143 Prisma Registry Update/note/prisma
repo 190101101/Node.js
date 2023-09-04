@@ -1,0 +1,5 @@
+//https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference
+// https://www.prisma.io/docs/reference/api-reference/prisma-schema-reference
+
+npm install @prisma/client --save
+npx prisma migrate dev --name init

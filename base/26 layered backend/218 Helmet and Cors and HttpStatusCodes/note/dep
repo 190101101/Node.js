@@ -1,0 +1,6 @@
+npm install --save express
+npm install --save dotenv
+npm install --save mongoose
+npm install --save cors
+npm install --save helmet
+npm install --save http-status-codes

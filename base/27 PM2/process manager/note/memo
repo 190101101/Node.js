@@ -1,0 +1,13 @@
+npm install pm2@latest -g
+pm2 start 1.js
+pm2 stop 1.js
+pm2 start --watch 1.js 
+pm2 start 1.js --watch -f
+pm2 start 1.js --attach
+pm2 restart 1
+pm2 list
+pm2 show 1
+pm2 delete all
+pm2 start 1.js --max-memory-restart 1M
+pm2 start 1.js -i max
+pm2 start 1.js -i 2

@@ -1,0 +1,4 @@
+npm install -g express-generator
+express --view ejs app3
+cd app3
+npm install

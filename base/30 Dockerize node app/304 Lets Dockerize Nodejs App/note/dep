@@ -1,0 +1,5 @@
+docker build --tag testnodeapi .
+docker run -p 5001:5000 testnodeapi
+
+bunu men yazdim
+npm install -g npm@9.8.1

@@ -1,0 +1,35 @@
+const express = require('express');
+const app = express();
+const fs = require('fs');
+const path = require('path');
+
+app.use('/public', express.static(path.join(__dirname, 'public')))
+const pages = '/public/pages/';
+
+app.get('/', (req, res) => {
+	res.sendFile(__dirname+pages+'index.html');
+});
+
+app.get('/obj-json', (req, res) => {
+	res.json({
+		id:1, 
+		name:'cookie',
+	});
+});
+
+app.get('/array-json', (req, res) => {
+	res.json([
+		{
+			id:1, 
+			name:'cookie',
+		},
+		{
+			id:2, 
+			name:'apsi',
+		},
+	]);
+});
+
+app.listen(3000, () => {
+	console.log('http://localhost:3000');
+})

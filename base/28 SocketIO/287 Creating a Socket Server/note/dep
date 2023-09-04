@@ -1,0 +1,2 @@
+npm install socket.io
+npx create-react-app my-app

@@ -1,0 +1,239 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "application information",
+        "version": "1.2.0",
+        "title": "my app",
+        "termsOfService": "test",
+        "contact": {
+            "email": "cookie@gmail.com"
+        },
+        "license": {
+            "name": "test",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+        }
+    },
+    "host": "localhost:3000/",
+    "basePath": "",
+    "tags": [{
+        "name": "Team",
+        "description": "user endpoints",
+        "externalDocs": {
+            "description": "go to link",
+            "url": "http://swagger.io"
+        }
+    }],
+    "schemes": [
+        "https",
+        "http"
+    ],
+    "paths": {
+        "/create": {
+            "post": {
+                "tags": [
+                    "Team"
+                ],
+                "summary": "team create",
+                "description": "team create",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [{
+                    "in": "body",
+                    "name": "body",
+                    "description": "team create",
+                    "required": true,
+                    "schema": {
+                        "$ref": "#/definitions/Team"
+                    }
+                }],
+                "responses": {
+                    "default": {
+                        "description": "successful operation"
+                    }
+                }
+            }
+        },
+        "/list": {
+            "get": {
+                "tags": [
+                    "Team"
+                ],
+                "summary": "team",
+                "description": "teams",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [{
+                    "name": "teamId",
+                    "in": "query",
+                    "description": "find team",
+                    "required": false,
+                    "type": "string"
+                }],
+                "responses": {
+                    "200": {
+                        "description": "successful",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/TeamList"
+                            }
+
+                        }
+                    },
+                    "400": {
+                        "description": "wrong parameters"
+                    }
+                }
+            }
+        },
+        "/delete/{id}": {
+            "delete": {
+                "tags": [
+                    "Team"
+                ],
+                "summary": "team delete",
+                "description": "delete team",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [{
+                    "name": "id",
+                    "in": "path",
+                    "description": "deleted id number",
+                    "required": true,
+                    "type": "string"
+                }],
+                "responses": {
+                    "200": {
+                        "description": "successful",
+                        "schema": {
+                            "type": "object",
+                            "$ref": "#/definitions/DeleteSuccess"
+
+                        }
+                    },
+                    "400": {
+                        "description": "wrong number "
+                    },
+                    "404": {
+                        "description": "team not found"
+                    }
+                }
+            }
+        },
+        "/update/{id}": {
+            "put": {
+                "tags": [
+                    "Team"
+                ],
+                "summary": "updated team",
+                "description": "team update.",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [{
+                        "name": "id",
+                        "in": "path",
+                        "description": "updated team number",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "updated team object",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/UpdateTeam"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "successful",
+                        "schema": {
+                            "type": "object",
+                            "$ref": "#/definitions/updateModel"
+
+                        }
+                    },
+                    "400": {
+                        "description": "wrong number"
+                    },
+                    "404": {
+                        "description": "team not found"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "Team": {
+            "type": "object",
+            "properties": {
+                "team": {
+                    "type": "string"
+                }
+            }
+        },
+        "TeamList": {
+            "type": "object",
+            "properties": {
+                "team": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "number"
+                }
+            }
+        },
+        "DeleteSuccess": {
+            "type": "object",
+            "properties": {
+                "message": {
+                    "type": "string"
+                }
+            }
+        },
+        "UpdateTeam": {
+            "type": "object",
+            "properties": {
+                "team": {
+                    "type": "string"
+                }
+            }
+        },
+        "updateModel": {
+            "type": "object",
+            "properties": {
+                "team": {
+                    "type": "string"
+                },
+                "id": {
+                    "type": "integer"
+                }
+            }
+        },
+        "ApiResponse": {
+            "type": "object",
+            "properties": {
+                "code": {
+                    "type": "integer",
+                    "format": "int32"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "message": {
+                    "type": "string"
+                }
+            }
+        }
+    },
+    "externalDocs": {
+        "description": "test",
+        "url": "http://swagger.io"
+    }
+}

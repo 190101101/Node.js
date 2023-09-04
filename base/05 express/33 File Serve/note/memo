@@ -1,0 +1,4 @@
+npm install --save-dev nodemon
+"scripts": {
+    "start": "nodemon example/src/1.js"
+},

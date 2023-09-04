@@ -1,0 +1,37 @@
+company:
+
+{
+	"name":"new data 2",
+	"year":"2023",
+	"description":"new description 2"
+}
+
+title:
+
+{
+	"name":"developer 1"
+}
+
+person:
+
+{
+	// 64f4a26cc8f11fd71701ce5a
+	"name": "name",
+	"surname": "surname",
+	"birthDate": 2016,
+	"gender": "gender",
+	"salary": 2000,
+	"tcNumber": "tcNumber",
+	"email": "email",
+	"password": "password",
+	"avatar": "avatar",
+	"cvFile": "cvFile",
+	"country": "country",
+	"city": "city",
+	"company": "64f3ed612f4b3d61999bf286",
+	"title": "64f3ed612f4b3d61999bf286"
+}
+
+
+company 64f21ca6f0f42dc8f842d531
+title 64f21e8c0049274e709e294c

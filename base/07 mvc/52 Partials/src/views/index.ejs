@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title><%=title%></title>
+</head>
+<body>
+	<%-include('partials/navbar'); %>
+
+	<h1>index page</h1>
+	
+	<p>num: <%=number%></p>
+	
+	<p>is active: <%=isActive%></p>
+	
+	<p>length <%=myArr.length%></p>
+	
+	<p>arr <%=myArr%></p>
+	
+	<p>obj <%=myObj%></p>
+
+	<ul>
+		<% for(let i = 0; i < myArr.length; i++){ %>
+			<li><%=myArr[i]%></li>
+		<% } %>
+	</ul>
+
+	<ul>
+
+		<% myObj.forEach((item, index) => { %>
+			<% console.log(index, item); %>
+			<li><%=index %> - <%=item.id %></li>
+		<% }) %>
+	</ul>
+
+
+</body>
+</html>

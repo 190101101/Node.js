@@ -1,0 +1,2 @@
+npm install --save winston
+npm install --save winston-daily-rotate-file

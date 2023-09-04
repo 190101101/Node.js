@@ -1,0 +1,70 @@
+base\26 layered backend\214 Lets Create Our Layers
+base\26 layered backend\215 Express Installation
+base\26 layered backend\216 Serverconfig and DotENV
+base\26 layered backend\217 DB Connection
+base\26 layered backend\218 Helmet and Cors and HttpStatusCodes
+base\26 layered backend\219 router
+base\26 layered backend\220 logger
+base\26 layered backend\221 validator
+base\26 layered backend\222 Auth Middleware and JWT
+base\26 layered backend\223 CONSTS
+base\26 layered backend\224 Schema Introduction
+base\26 layered backend\225 Creating Models
+base\26 layered backend\226 Creating Controllers
+base\26 layered backend\227 Router and Controller Integration
+base\26 layered backend\228 Creating Logger Middleware
+base\26 layered backend\229 Logger Middleware Integration
+base\26 layered backend\230 Md5 Hash
+base\26 layered backend\231 Creating Country and City Data
+base\26 layered backend\232 GetAllCountry
+base\26 layered backend\233 GetCityById
+base\26 layered backend\234 BaseResponse DTO
+base\26 layered backend\235 Error Conditions
+base\26 layered backend\236 Logging of errors
+base\26 layered backend\237 GetCityById Validation Operations
+base\26 layered backend\238 Creating a Company Service and Company Branch
+base\26 layered backend\239 Creating Company Model DTO
+base\26 layered backend\240 Company Logo Upload
+base\26 layered backend\241 Create Upload Directroy and Get Host Helper
+base\26 layered backend\242 Registering the Logo
+base\26 layered backend\243 Serving the File
+base\26 layered backend\244 File Upload Error Management
+base\26 layered backend\245 Creating a File Service
+base\26 layered backend\246 File Service Integration
+base\26 layered backend\247 Company and Image Creation
+base\26 layered backend\248 CreateCompany Validation Processes
+base\26 layered backend\249 GetAllCompanies
+base\26 layered backend\250 DeleteCompanyById
+base\26 layered backend\251 GetCompanyById
+base\26 layered backend\252 UpdateCompanyById
+base\26 layered backend\253 Deletion of Company and File
+base\26 layered backend\254 UpdateLogo
+base\26 layered backend\255 CreateTitle
+base\26 layered backend\256 GetAllTitle
+base\26 layered backend\257 GetTitleById
+base\26 layered backend\258 UpdateTitleById
+base\26 layered backend\259 DeleteTitleById
+base\26 layered backend\260 CreatePerson
+base\26 layered backend\261 Password Hashing and CreatePerson Validation Operations
+base\26 layered backend\262 Staff Email Validation
+base\26 layered backend\263 Personnel TR Number Validation
+base\26 layered backend\264 Staff Avatar Upload
+base\26 layered backend\265 Personnel Cv Upload
+base\26 layered backend\266 GetCompanyByPersonnelId
+base\26 layered backend\267 GetTitleByPersonnelId
+base\26 layered backend\268 GetPersonById
+base\26 layered backend\269 GetAllPersons
+base\26 layered backend\270 GetAllPersons Pagination
+base\26 layered backend\271 UpdatePersonById
+base\26 layered backend\272 DeletePersonById
+base\26 layered backend\273 UpdatePersonCV
+base\26 layered backend\274 UpdatePersonAvatar
+base\26 layered backend\275 Personnel and Title Relationship
+base\26 layered backend\276 Personnel and Company Relationship
+base\26 layered backend\277 Person Deletion and Title Relationship
+base\26 layered backend\278 Employee Deletion and Company Relationship
+base\26 layered backend\279 Company and Personnel Relationship
+base\26 layered backend\280 Company Deletion and Personnel Relationship
+base\26 layered backend\281 Title and Personnel Relationship
+base\26 layered backend\282 Title Deletion and Personnel Relationship
+base\26 layered backend\283 Auth Middleware Implementation

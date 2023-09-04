@@ -1,0 +1,17 @@
+{
+    "code": 201,
+    "error": false,
+    "timestamp": 1693352550129,
+    "success": true,
+    "data": {
+        "name": "kuki",
+        "logo": "http://192.168.94.1:3000/uploads/1693352550001_0.5wbq57qa6sw_image_75db8d2d559663dc09b3e1d48f05525a.jpg",
+        "year": 2016,
+        "description": "kuki the cat",
+        "id": "64ee8266d15bf285a804485f",
+        "createdAt": "2023-08-29T23:42:30.027Z",
+        "updatedAt": "2023-08-29T23:42:30.027Z"
+    },
+    "message": "",
+    "validationErrors": null
+}

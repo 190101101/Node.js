@@ -1,0 +1,13 @@
+const logger = require('../utils/helper');
+
+module.exports = (req, res, next) => {
+	logger.logger.info(`
+		IP ADDRESS: ${req.ip} - 
+		PATH: ${req.path} - 
+		BODY: ${JSON.stringify(req.body)} -
+		PARAMS: ${JSON.stringify(req.params)} -
+		QUERY: ${JSON.stringify(req.query)} -
+		MIDDLEWARE ACCESS TIME: ${Date.now()}
+	`)
+	next();
+}
