@@ -39,7 +39,7 @@ db.mongooseConnection.connectToMongoDb(
 	process.env.MONGODB_MAX_POOL_SIZE,
 	process.env.MONGODB_CONNECTION_TIMEOUT
 ).then((r) => {
-	app.listen(3000, () => {
+	app.listen(PORT, () => {
 		console.log(`http://localhost:${PORT}`);
 	});
 }).catch((err) => {

@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Kütüphane dizini
-const libraryDirectory = '/path/to/your/library/directory';
+const libraryDirectory = 'library';
 
 // Silmek istediğiniz dosya uzantıları
 const fileExtensionsToDelete = ['.jpeg', '.jpg', '.png', '.pdf'];

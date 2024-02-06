@@ -25,12 +25,4 @@ const io = socket(server, {
 
 io.on('connection', (socket) => {
 	console.log('socket connection', socket.id);
-	socket.on('disconnect', (reason) => {
-		console.log(reason);
-		console.log('disconnected socket', socket.id);
-	});
-	
-	socket.on('disconnecting', (reason) => {
-		console.log('disconnecting', reason);
-	});
 });
