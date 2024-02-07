@@ -24,10 +24,7 @@ io.on("connection", (socket) => {
     console.log(`disconnecting ${reason}`);
   });
 
-  socket.emit('hey', `hey user time is ${new Date()}`);
-
-  socket.on('client', (data) => {
-    console.log(data);
-  });
-
+  setInterval(() => {
+    socket.emit('time', `time: ${new Date()}`);
+  }, 1000)
 });
