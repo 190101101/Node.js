@@ -24,7 +24,4 @@ io.on("connection", (socket) => {
   socket.on('disconnect', (reason) => {
     console.log(`disconnected ${socket.id}`);
   })
-  socket.on('disconnecting', (reason) => {
-    console.log(`disconnecting ${reason}`);
-  })
 });
