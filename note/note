@@ -1,0 +1,326 @@
+base\02 modules\10 Path
+base\02 modules\11 Fs
+base\02 modules\12 Os
+base\02 modules\13 Zlib
+base\02 modules\14 Url
+base\02 modules\15 Timers
+base\02 modules\16 Child Proses
+base\02 modules\17 Crypto
+base\02 modules\18 DNS
+base\02 modules\19 Events
+base\02 modules\20 Http
+base\02 modules\21 Process
+base\02 modules\22 Readline
+base\02 modules\23 own module
+
+base\03 npm\24 package manager 01
+base\03 npm\25 package manager 02
+base\03 npm\26 package manager 03
+
+base\04 console\27 entered on console
+base\04 console\28 reading the file
+base\04 console\29 create a QR code
+
+base\05 express\30 what is express
+base\05 express\31 express app
+base\05 express\32 fulfilling incoming qequests
+base\05 express\33 File Serve
+base\05 express\34 Static File Serve
+base\05 express\35 Redirect
+base\05 express\36 JSON
+base\05 express\37 JSON response
+base\05 express\38 Http methods
+base\05 express\39 Http status code
+base\05 express\40 Postman
+base\05 express\41 Http methods app 
+
+base\06 router\42 router
+base\06 router\43 Router & Http Methods
+base\06 router\44 Router Params and Query Params
+base\06 router\45 404 Not Found
+base\06 router\46 Editing Routers
+base\06 router\47 Creating a Controller
+
+base\07 mvc\48 Introduction and EJS Installation
+base\07 mvc\49 Views Directory Change
+base\07 mvc\50 EJS Data Submission
+base\07 mvc\51 EJS Loop & Condition
+base\07 mvc\52 Partials
+base\07 mvc\53 Static Files
+base\07 mvc\54 Express Generator
+
+base\08 api\55 What is API
+base\08 api\56 Lets Create an API
+base\08 api\57 Lets Test API
+base\08 api\58 Lets Take a Closer Look
+base\08 api\59 Lets Take a Closer Look at the Response
+
+base\09 Express and TypeScript\60 Express and TypeScript
+
+base\10 Swagger\61 what is Swagger
+base\10 Swagger\62 express api
+base\10 Swagger\63 Swagger entegration
+
+base\11 middleware\64 What is Middleware
+base\11 middleware\65 Global Middleware
+base\11 middleware\66 Route Base Middleware
+base\11 middleware\67 Lets Organize Our Middlewares
+
+base\12 fileupload\68 Single File Upload
+base\12 fileupload\69 File Filtering
+base\12 fileupload\70 Sending File and Form Data
+base\12 fileupload\71 Automatic Creation of Uploads Folder
+base\12 fileupload\72 Using Multer as Middleware
+base\12 fileupload\73 Multiple File Upload
+base\12 fileupload\74 Error Management
+base\12 fileupload\75 Sending Files with Different Field Value
+base\12 fileupload\76 Any File Upload and Limit
+base\12 fileupload\77 Memory Storage
+
+base\13 JWT\78 What is JWT
+base\13 JWT\79 Token Creation
+base\13 JWT\80 Token Verification
+base\13 JWT\81 Jwt and Express
+base\13 JWT\82 JWT Middleware
+
+base\14 MySql\83 What is a Database
+base\14 MySql\84 MYSQL Installation
+base\14 MySql\85 MYSQL Connection
+base\14 MySql\86 MYSQL DB Creation
+base\14 MySql\87 MYSQL Table Creation
+base\14 MySql\88 Adding Data to a Table
+base\14 MySql\89 Multiple Data Insertion
+base\14 MySql\90 Adding Data Dynamically
+base\14 MySql\91 Listing Data
+base\14 MySql\92 Table Query
+base\14 MySql\93 Deleting Data from a Table
+base\14 MySql\94 Data Update from Table
+base\14 MySql\95 Table Relationship Types
+base\14 MySql\96 1-Create Multiple Tables
+base\14 MySql\97 1-Adding Records to Multiple Tables
+base\14 MySql\98 1-Listing Data from Multiple Tables
+base\14 MySql\99 1-Updating Data from Multi-Tables
+base\14 MySql\100 1-Deleting Data from Multiple Tables
+base\14 MySql\101 1-1 Table Creation
+base\14 MySql\102 1-1 Adding Data to the Table
+base\14 MySql\103 1-1 Listing Data from a Table
+base\14 MySql\104 1-1 Data Update from Table
+base\14 MySql\105 1-1 Deleting Data from Table
+base\14 MySql\106 Creating Many-to-Many Tables
+base\14 MySql\107 Adding Data to Many-to-Many Tables
+base\14 MySql\108 Listing Data from Many-to-Many Tables
+base\14 MySql\109 Updating Data from Many-to-Many Tables
+base\14 MySql\110 Deleting Data from Many-to-Many Tables
+base\14 MySql\111 MySql Transaction and Connection Closing
+
+base\15 Sequelize ORM\112 What is ORM
+base\15 Sequelize ORM\113 Sequelize Db Connection
+base\15 Sequelize ORM\114 Creating Sequelize Table/Model
+base\15 Sequelize ORM\115 Sequelize Model Config
+base\15 Sequelize ORM\116 Add Sequelize Data
+base\15 Sequelize ORM\117 Sequelize Data Listing
+base\15 Sequelize ORM\118 Sequelize Data Query
+base\15 Sequelize ORM\119 Sequelize Data Erase
+base\15 Sequelize ORM\120 Sequelize Data Update
+base\15 Sequelize ORM\121 Sequelize Bulk Create
+base\15 Sequelize ORM\122 Sequelize FindorCreate and FindandCountAll
+base\15 Sequelize ORM\123 Sequelize Getter and Setter and Virtual
+base\15 Sequelize ORM\124 Sequelize Validation
+base\15 Sequelize ORM\125 Sequence Hooks
+base\15 Sequelize ORM\126 Sequelize Query
+base\15 Sequelize ORM\127 Sequence Transactions
+base\15 Sequelize ORM\128 Sequelize and Express
+base\15 Sequelize ORM\129 Sequelize 1 - Creating Multiple Models
+base\15 Sequelize ORM\130 Sequelize 1-Multi-Record Creation
+base\15 Sequelize ORM\131 Sequelize 1-Many Get and Count and Add and Create
+base\15 Sequelize ORM\132 Sequelize 1-Breaking Multiple Relationships
+base\15 Sequelize ORM\133 Sequelize 1-Listing and Querying Multi-Related Data
+base\15 Sequelize ORM\134 Sequelize Many-to-Many Model Creation
+base\15 Sequelize ORM\135 Sequelize Multi-to-Many Recording
+base\15 Sequelize ORM\136 Sequelize Many-to-Many Get and Count and Create
+base\15 Sequelize ORM\137 Sequelize Breaking the Many-to-Many Relationship
+base\15 Sequelize ORM\138 Sequelize Listing and Querying Many-to-Many Related Data
+
+base\16 Prisma ORM\139 Prisma Introduction
+base\16 Prisma ORM\140 Lets Take a Closer Look at Prisma Model Building
+base\16 Prisma ORM\141 Prisma Recording Creation
+base\16 Prisma ORM\142 Prisma Listing and Querying and Grouping and Avg
+base\16 Prisma ORM\143 Prisma Registry Update
+base\16 Prisma ORM\144 Prisma Deregistration
+base\16 Prisma ORM\145 Prisma and Express
+base\16 Prisma ORM\146 Prisma 1-Many Relationship Creation
+base\16 Prisma ORM\147 Prisma 1-Multi-Record Creation
+base\16 Prisma ORM\148 Prisma 1-Multi-Record Listing and Querying
+base\16 Prisma ORM\149 Prisma 1-Multi Record Update
+base\16 Prisma ORM\150 Prisma 1-Multi-Record Deletion
+base\16 Prisma ORM\151 Creating a Prisma Many-to-Many Relationship
+base\16 Prisma ORM\152 Prisma Multi-to-Many Recording
+base\16 Prisma ORM\153 Prisma Many-to-Many Record Listing and Query
+base\16 Prisma ORM\154 Prisma Multi-Multi Record Update
+base\16 Prisma ORM\155 Prisma Multi-to-Many Record Deletion
+base\16 Prisma ORM\156 Prisma Transactions
+base\16 Prisma ORM\157 Prisma Pagination
+base\16 Prisma ORM\158 Prisma Query
+
+base\19 NoSql MongoDb\162 What is NoSQL Database
+base\19 NoSql MongoDb\163 MongoDB Installations
+base\19 NoSql MongoDb\164 Creating a MongoDB DB and Collection
+base\19 NoSql MongoDb\165 MongoDB Record Creation
+base\19 NoSql MongoDb\166 MongoDB Record Listing and Querying
+base\19 NoSql MongoDb\167 MongoDB Registry Update
+base\19 NoSql MongoDb\168 MongoDB Deregistration
+base\19 NoSql MongoDb\169 MongoDB Sort and Skip and Limit
+base\19 NoSql MongoDb\170 Express and MongoDB
+
+base\20 NoSql ORM Mongoose\171 Mongoose Login
+base\20 NoSql ORM Mongoose\172 Creating a Mongoose Schema
+base\20 NoSql ORM Mongoose\173 Schema Hooks and Static and Virtual and Query
+base\20 NoSql ORM Mongoose\174 Mongoose Record Creation
+base\20 NoSql ORM Mongoose\175 Mongoose Record Listing and Query
+base\20 NoSql ORM Mongoose\176 Mongoose Registry Update
+base\20 NoSql ORM Mongoose\177 Mongoose Deregistration
+base\20 NoSql ORM Mongoose\178 Mongoose Model Validation
+base\20 NoSql ORM Mongoose\179 Mongoose Skip and Limit and Order
+base\20 NoSql ORM Mongoose\180 Mongoose and Express
+base\20 NoSql ORM Mongoose\181 Creating a Mongoose Relationship
+base\20 NoSql ORM Mongoose\182 Mongoose 1-Multi-Record Creation
+base\20 NoSql ORM Mongoose\183 Mongoose 1-Multi-Record Listing and Querying
+base\20 NoSql ORM Mongoose\184 Mongoose 1-Multi Record Update
+base\20 NoSql ORM Mongoose\185 Mongoose 1-Multi Record Deletion
+
+base\21 Express Validator\186 What it is Express Validator
+base\21 Express Validator\187 Using Validator
+base\21 Express Validator\188 Dynamic Message and Multiple Validation
+base\21 Express Validator\189 Params Validation
+base\21 Express Validator\190 Query Validation
+base\21 Express Validator\191 Custom Validator
+
+base\23 Redis\193 What is Redis
+base\23 Redis\194 Redis Installation
+base\23 Redis\195 Lets Connect to Redis
+base\23 Redis\196 Redis SET
+base\23 Redis\197 Redis GET
+base\23 Redis\198 Redis DEL and SETEX
+base\23 Redis\199 Redis COMMANDS
+base\23 Redis\200 Express and Redis
+
+base\24 Logging\201 Why Logging Is Done
+base\24 Logging\202 Winston and Express Installation
+base\24 Logging\203 First Logging with Winston
+base\24 Logging\204 Creating a Winston Custom Log Format
+base\24 Logging\205 Generating Winston Log File
+base\24 Logging\206 Winston and Express
+
+base\25 RabbitMQ\207 What is RabbitMQ
+base\25 RabbitMQ\208 RabbitMQ Installation
+base\25 RabbitMQ\209 Creating a Sample Scenario for RabbitMQ
+base\25 RabbitMQ\210 RabbitMQ Connection Process
+base\25 RabbitMQ\211 Creating a RabbitMQ Publisher
+base\25 RabbitMQ\212 Testing RabbitMQ Publisher
+base\25 RabbitMQ\213 RabbitMQ Consumer and Queue Consumption
+
+base\26 layered backend\214 Lets Create Our Layers
+base\26 layered backend\215 Express Installation
+base\26 layered backend\216 Serverconfig and DotENV
+base\26 layered backend\217 DB Connection
+base\26 layered backend\218 Helmet and Cors and HttpStatusCodes
+base\26 layered backend\219 router
+base\26 layered backend\220 logger
+base\26 layered backend\221 validator
+base\26 layered backend\222 Auth Middleware and JWT
+base\26 layered backend\223 CONSTS
+base\26 layered backend\224 Schema Introduction
+base\26 layered backend\225 Creating Models
+base\26 layered backend\226 Creating Controllers
+base\26 layered backend\227 Router and Controller Integration
+base\26 layered backend\228 Creating Logger Middleware
+base\26 layered backend\229 Logger Middleware Integration
+base\26 layered backend\230 Md5 Hash
+base\26 layered backend\231 Creating Country and City Data
+base\26 layered backend\232 GetAllCountry
+base\26 layered backend\233 GetCityById
+base\26 layered backend\234 BaseResponse DTO
+base\26 layered backend\235 Error Conditions
+base\26 layered backend\236 Logging of errors
+base\26 layered backend\237 GetCityById Validation Operations
+base\26 layered backend\238 Creating a Company Service and Company Branch
+base\26 layered backend\239 Creating Company Model DTO
+base\26 layered backend\240 Company Logo Upload
+base\26 layered backend\241 Create Upload Directroy and Get Host Helper
+base\26 layered backend\242 Registering the Logo
+base\26 layered backend\243 Serving the File
+base\26 layered backend\244 File Upload Error Management
+base\26 layered backend\245 Creating a File Service
+base\26 layered backend\246 File Service Integration
+base\26 layered backend\247 Company and Image Creation
+base\26 layered backend\248 CreateCompany Validation Processes
+base\26 layered backend\249 GetAllCompanies
+base\26 layered backend\250 DeleteCompanyById
+base\26 layered backend\251 GetCompanyById
+base\26 layered backend\252 UpdateCompanyById
+base\26 layered backend\253 Deletion of Company and File
+base\26 layered backend\254 UpdateLogo
+base\26 layered backend\255 CreateTitle
+base\26 layered backend\256 GetAllTitle
+base\26 layered backend\257 GetTitleById
+base\26 layered backend\258 UpdateTitleById
+base\26 layered backend\259 DeleteTitleById
+base\26 layered backend\260 CreatePerson
+base\26 layered backend\261 Password Hashing and CreatePerson Validation Operations
+base\26 layered backend\262 Staff Email Validation
+base\26 layered backend\263 Personnel TR Number Validation
+base\26 layered backend\264 Staff Avatar Upload
+base\26 layered backend\265 Personnel Cv Upload
+base\26 layered backend\266 GetCompanyByPersonnelId
+base\26 layered backend\267 GetTitleByPersonnelId
+base\26 layered backend\268 GetPersonById
+base\26 layered backend\269 GetAllPersons
+base\26 layered backend\270 GetAllPersons Pagination
+base\26 layered backend\271 UpdatePersonById
+base\26 layered backend\272 DeletePersonById
+base\26 layered backend\273 UpdatePersonCV
+base\26 layered backend\274 UpdatePersonAvatar
+base\26 layered backend\275 Personnel and Title Relationship
+base\26 layered backend\276 Personnel and Company Relationship
+base\26 layered backend\277 Person Deletion and Title Relationship
+base\26 layered backend\278 Employee Deletion and Company Relationship
+base\26 layered backend\279 Company and Personnel Relationship
+base\26 layered backend\280 Company Deletion and Personnel Relationship
+base\26 layered backend\281 Title and Personnel Relationship
+base\26 layered backend\282 Title Deletion and Personnel Relationship
+base\26 layered backend\283 Auth Middleware Implementation
+
+base\27 PM2\process manager
+
+base\28 Socket io\285 What is WebSocket
+base\28 Socket io\286 Socket io and Setup
+base\28 Socket io\287 Creating a Socket Server
+base\28 Socket io\288 Client and Server Connection
+base\28 Socket io\289 Client Disconnect and Disconnecting
+base\28 Socket io\290 Client to Server and Server to Client
+base\28 Socket io\291 Lets Take a Look at the Configs
+base\28 Socket io\292 Once and Off and Remove
+base\28 Socket io\293 io To
+base\28 Socket io\294 Socket Broadcast and io Sockets Emit
+base\28 Socket io\295 Rooms
+base\28 Socket io\296 Sample Application Chart
+base\28 Socket io\297 Socket and Express and Project Ideas
+
+base\29 MicroService\298 What is Microservice
+base\29 MicroService\299 User and Product Service Creation
+base\29 MicroService\300 Creating Services and Db Connections
+base\29 MicroService\301 Node Redis Pub and Sub
+base\29 MicroService\302 UserCreate
+base\29 MicroService\303 Establishing Inter-Service Communication
+
+base\30 Dockerize node app\304 Lets Dockerize Nodejs App
+base\31 Nodejs Build\306 Hereku Build
+
+---
+library\code\02 socket chat\01 Socket.io ile Chat Uygulaması Kurulumları
+library\code\02 socket chat\02 ExpressJs ile Server Oluşturma
+library\code\02 socket chat\03 Web Sayfası Oluşturma
+library\code\02 socket chat\04 Socket IO Kullanma
+library\code\02 socket chat\05 Chat Sayfasını Ayarlama
+library\code\02 socket chat\06 Mesaj Gönderme İşlemi
+library\code\02 socket chat\07 Diğer Clientlara Mesaj Gönderme
