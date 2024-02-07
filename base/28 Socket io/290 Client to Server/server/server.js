@@ -1,5 +1,5 @@
 require("dotenv").config();
-const socketIO = require("./socket");
+const socket = require("socket.io");
 const express = require("express");
 const app = express();
 
@@ -11,11 +11,16 @@ const server = app.listen(19101, () => {
   console.log(`http://localhost:19101`);
 });
 
-const io = socketIO.init(server);
+const io = socket(server, {
+  cors: {
+    origin: "*",
+    method: ["GET"],
+  },
+});
 
 io.on("connection", (socket) => {
   console.log(`connected socket ${socket.id}`);
-  // console.log(socket.handshake.headers)
+  // console.log(socket.handshake)
   socket.on('disconnect', (reason) => {
     console.log(`disconnected ${socket.id}`);
   })
